@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>500 Cities Web Map</title>
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+  <link rel="stylesheet" href="http://leaflet.github.io/Leaflet.label/leaflet.label.css" />
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
+  <style>
+    html, body, #map {
+      height: 100%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div id="map"></div>
+<script>
+
+//center map on chicago
+    var map = L.map('map',{scrollWheelZoom:false}).setView([41.875302, -87.619958], 12);
+
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var marker = L.marker([41.9298577,-87.74272613]).bindPopup('Logan Square Blue Line').addTo(map);
+</script>
+
+</body>
+</html>
