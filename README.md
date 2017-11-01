@@ -16,7 +16,7 @@ Sum pooled_trimmed_weight14_16 = 2079053.76
 
 RWi = [ pooled_trimmed_weight14_16 / 2079053.76] * 7649
 
-∑RWi = 7538 (because of weight trimming). Mean = 0.997. Range = 0.08 - 4.26
+∑RWi = 7679. Mean = 1.00. Range = 0.08 - 4.26
 
 ### Missing values:
 Community areas with a total sample less than 25 were excluded from analysis:
