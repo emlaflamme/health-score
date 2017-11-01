@@ -39,3 +39,4 @@ Community area:	community area poverty (% living below poverty level; range: 2.6
 
 Individual-level age-by-race-by-sex estimated prevalence 
 
+Note: Interactions have not been identified yet
