@@ -1,4 +1,4 @@
-# health-risk-score
+# health-score
 
 ## Methodology:
 *Methodology adapted from the CDC 500 Cities Project: Zhang X. et al. Multilevel Regression and Poststratification for Small-Area Estimation of Population Health Outcomes: A Case Study of Chronic Obstructive Pulmonary Disease Prevalence Using the Behavioral Risk Factor Surveillance System. Am J Epidem. 2014; 179 (8)*
